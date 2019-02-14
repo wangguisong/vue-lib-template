@@ -1,29 +1,27 @@
 # vue-lib-template
 
-## Project setup
+vue组件库开发模板
+
+## 目录结构
+- src 组件源码
+- examples 示例代码
+- lib 打包目录
+## 开发
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## 打包并发布
 ```
-npm run build
+npm run lib
 ```
-
-### Run your tests
+修改package.json
 ```
-npm run test
+npm login
 ```
-
-### Lints and fixes files
 ```
-npm run lint
+npm publish
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
